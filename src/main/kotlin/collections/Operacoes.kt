@@ -1,4 +1,4 @@
-package colletcions
+package collections
 
 fun main (){
     val salarios = doubleArrayOf(2000.00, 3650.00, 8000.00, 5000.00, 6950.00, 23000.00,15500.00)

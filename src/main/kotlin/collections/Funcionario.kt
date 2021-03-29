@@ -1,4 +1,4 @@
-package colletcions
+package collections
 
 data class Funcionario(
     val nome: String,

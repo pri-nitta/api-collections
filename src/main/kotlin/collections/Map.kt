@@ -1,4 +1,4 @@
-package colletcions
+package collections
 
 fun main() {
 
