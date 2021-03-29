@@ -11,6 +11,11 @@ class Repositorio<T> {
         map[id] = value
     }
 
+    fun remove(id: String) = map.remove(id)
+
     //dado uma chave ele dá o valor
     fun findById(id: String) = map[id]
+
+    //pegar a coleção de elementos do mapa, trazer todos os Ts gravados
+    fun findAll() = map.values
 }
